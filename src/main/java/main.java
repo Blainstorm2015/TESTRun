@@ -7,6 +7,9 @@ public class main {
         int b = 10;
 
         System.out.println("The sum of " + a + " and " + b + " is " + add(a, b));
+
+        System.out.println("The difference of " + a + " and " + b + " is " + subtract(a, b));
+
         System.out.println("The product of " + a + " and " + b + " is " + multiply(a, b));
     }
         
@@ -21,6 +24,10 @@ public class main {
 
     public static int multiply(int a, int b) {
         return a * b;
+    }
+
+    public static int subtract(int a, int b) {
+        return a - b;
     }
 
 }
